@@ -1,0 +1,46 @@
+For each TWO things in the INBOX:
+
+Send 0 to the OUTBOX if they have the same sign. (Both
+positive or both negative.)
+
+Send a 1 to the OUTBOX if their signs are different.
+Repeat until the INBOX is empty.
+
+0 = SAME
+1 = DIFF
+
+simple XOR
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+main0:
+    INBOX
+    COPYTO 0
+    ADD  0
+    JUMPN same0
+    JUMPZ diff0
+    JUMP main1
+main1:
+    INBOX
+    COPYTO 0
+    ADD  0
+    JUMPN same1
+    JUMPZ diff1
+
+    JUMP main0
+
+same0:
+    COPYFROM 4
+    COPYTO 1
+
+diff0:
+    COPYFROM 5
+    COPYTO 1
+
+same1:
+    COPYFROM 4
+    COPYTO 3
+
+diff1:
+    COPYFROM 5
+    COPYTO 3
