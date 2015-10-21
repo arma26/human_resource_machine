@@ -1,6 +1,6 @@
-For each two things in the inbox, multiply them,
+/*For each two things in the inbox, multiply them,
 and outbox the result. Don't worry about negative numbers
-for now.
+for now.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

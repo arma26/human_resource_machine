@@ -1,5 +1,5 @@
-Grab the first two things from the inbox, and drop them into the outbox in reverse.
-Repeat until the inbox is empty.
+/*Grab the first two things from the inbox, and drop them into the outbox in reverse.
+Repeat until the inbox is empty.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

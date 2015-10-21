@@ -1,3 +1,5 @@
+/*Send all things that are not zero to the outbox.*/
+
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
 a:

@@ -1,4 +1,4 @@
-For each two things in the inbox, add them together, and put the result in the outbox.
+/*For each two things in the inbox, add them together, and put the result in the outbox.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

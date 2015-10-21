@@ -1,5 +1,5 @@
-Ignore the inbox for now, and just send the following 3 letters to the outbox.
-B U G
+/*Ignore the inbox for now, and just send the following 3 letters to the outbox.
+B U G*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

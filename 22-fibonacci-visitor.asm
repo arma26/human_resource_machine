@@ -1,4 +1,4 @@
-For each thing in the inbox, send to the outbox the full
+/*For each thing in the inbox, send to the outbox the full
 Fibonacci Sequence up to, but not exceeding that value.
 For example, if inbox is 10, outbox should be 1 1 2 3 5 8.
 
@@ -16,7 +16,7 @@ int fib(int n)
     b = c;
   }
   return b;
- }
+ }*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

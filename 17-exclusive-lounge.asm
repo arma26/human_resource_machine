@@ -1,4 +1,4 @@
-For each TWO things in the INBOX:
+/*For each TWO things in the INBOX:
 
 Send 0 to the OUTBOX if they have the same sign. (Both
 positive or both negative.)
@@ -9,7 +9,7 @@ Repeat until the INBOX is empty.
 neg = 1
 pos = 0
 
-simple XOR
+simple XOR*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

@@ -1,6 +1,6 @@
-For each number in the inbox, send that number to the outbox,
+/*For each number in the inbox, send that number to the outbox,
 followed by all numbers to (or up to) zero.
-It's a countdown.
+It's a countdown.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

@@ -1,6 +1,6 @@
-Add together all the numbers in each string.
+/*Add together all the numbers in each string.
 When you reach the end of a string (marked by a zero),
-put your sum in the outbox. Reset and repeat for each string.
+put your sum in the outbox. Reset and repeat for each string.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

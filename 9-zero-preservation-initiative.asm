@@ -1,4 +1,4 @@
-Send only zeros to the outbox.
+/*Send only zeros to the outbox.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

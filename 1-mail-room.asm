@@ -1,4 +1,4 @@
-Grab each item from the inbox and drop it into the outbox.
+/*Grab each item from the inbox and drop it into the outbox.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

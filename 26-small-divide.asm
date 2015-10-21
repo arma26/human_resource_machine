@@ -1,5 +1,5 @@
-For each two things in the inbox, how many times does the second fully fit
-into the first? Don't worry, about negative numbers, divide by zero, or remainders.
+/*For each two things in the inbox, how many times does the second fully fit
+into the first? Don't worry, about negative numbers, divide by zero, or remainders.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

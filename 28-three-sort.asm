@@ -1,4 +1,4 @@
-For each three things in the inbox, send them to the outbox in order from smallest to largest.
+/*For each three things in the inbox, send them to the outbox in order from smallest to largest.*/
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
