@@ -5,5 +5,16 @@ on the floor until reach zero. Repeat!
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
-main:
-  
+a:
+    INBOX
+    COPYTO   24
+    COPYFROM [24]
+    OUTBOX
+b:
+    BUMPUP   24
+    COPYFROM [24]
+    JUMPZ    c
+    OUTBOX
+    JUMP     b
+c:
+    JUMP     a

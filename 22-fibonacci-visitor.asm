@@ -23,26 +23,29 @@ int fib(int n)
 setup:
   COPYFROM 9
   COPYTO 8
-  BUMPUP 8
   COPYTO 7
+  BUMPUP 8
   BUMPUP 7
   INBOX
   COPYTO 4
 cheat:
-  COPYFROM 9
+  COPYFROM 8
   OUTBOX
-  COPYFROM 9
+  COPYFROM 8
   OUTBOX
 main:
-  COPYFROM 3
-  ADD 7
+  COPYFROM 7
   ADD 8
   COPYTO 3
   SUB 4
-  JUMPZ setup
-  JUMPN setup
+  JUMPZ next
+  JUMPN next
+  JUMP setup
+next:
+  COPYFROM 3
+  OUTBOX
   COPYFROM 8
   COPYTO 7
-  COPYFROM 8
-  COPYTO 3
+  COPYFROM 3
+  COPYTO 8
   JUMP main
