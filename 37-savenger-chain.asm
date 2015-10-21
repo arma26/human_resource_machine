@@ -7,4 +7,17 @@ Outbox the data for that pair, and also the data in all following pairs in the c
 The chain ends when you reach a negative address.
 Repeat until the inbox is empty.*/
 
+12 = test
+
 -- HUMAN RESOURCE MACHINE PROGRAM --
+
+main:
+  INBOX
+repeat:
+  COPYTO 12
+  COPYFROM [12]
+  OUTBOX
+  BUMPUP 12
+  COPYFROM [12]
+  JUMPN main
+  JUMP repeat
