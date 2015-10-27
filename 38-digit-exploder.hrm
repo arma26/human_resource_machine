@@ -1,0 +1,4 @@
+-- Grab each number from the inbox, and send its digit to the outbox.
+-- for example, 123 becomes 1,2,3.
+
+setup:
