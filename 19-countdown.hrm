@@ -1,0 +1,27 @@
+/*For each number in the inbox, send that number to the outbox,
+followed by all numbers to (or up to) zero.
+It's a countdown.*/
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    main:
+      INBOX
+      JUMPZ zero
+      COPYTO 4
+      JUMPN add1
+      JUMP sub1
+    sub1:
+      OUTBOX
+      BUMPDN 4
+      JUMPZ zero
+      COPYFROM 4
+      JUMP sub1
+    add1:
+      OUTBOX
+      BUMPUP 4
+      JUMPZ zero
+      COPYFROM 4
+      JUMP add1
+    zero:
+      OUTBOX
+      JUMP main
