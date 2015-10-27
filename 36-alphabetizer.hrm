@@ -1,0 +1,61 @@
+/*The inbox contains exactly two words. Determine which word comes first, if you were to order
+them alphabetically, and send only that word to the outbox.*/
+
+setone:
+  COPYFROM 23
+  COPYTO 21
+one:
+  INBOX
+  JUMPZ eno
+  COPYTO [21]
+  BUMPUP 21
+  JUMP one
+eno:
+  COPYTO [21]
+settwo:
+  COPYFROM 24
+  COPYTO 22
+two:
+  INBOX
+  JUMPZ owt
+  COPYTO [22]
+  BUMPUP 22
+  JUMP two
+owt:
+  COPYTO [22]
+counters:
+  COPYFROM 23
+  COPYTO 21
+  COPYFROM 24
+  COPYTO 22
+compare:
+  COPYFROM [22]
+  JUMPZ lowtwo
+  COPYFROM [21]
+  JUMPZ lowone
+  SUB [22]
+  JUMPZ bumps
+  JUMPN lowone
+  JUMP lowtwo
+bumps:
+  BUMPUP 21
+  BUMPUP 22
+  JUMP compare
+lowone:
+  COPYFROM 23
+  COPYTO 21
+oneout:
+  COPYFROM [21]
+  JUMPZ setone
+  OUTBOX
+  BUMPUP 21
+  JUMP oneout
+lowtwo:
+  COPYFROM 24
+  COPYTO 22
+twoout:
+  COPYFROM [22]
+  JUMPZ setone
+  OUTBOX
+  BUMPUP 22
+  JUMP twoout
