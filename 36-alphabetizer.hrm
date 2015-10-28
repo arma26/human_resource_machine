@@ -1,5 +1,5 @@
-/*The inbox contains exactly two words. Determine which word comes first, if you were to order
-them alphabetically, and send only that word to the outbox.*/
+-- The inbox contains exactly two words. Determine which word comes first, if you were to order
+-- them alphabetically, and send only that word to the outbox.
 
 setone:
   COPYFROM 23

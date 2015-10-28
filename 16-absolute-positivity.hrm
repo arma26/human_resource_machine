@@ -1,7 +1,6 @@
-Send each thing from the INBOX to the OUTBOX.
-BUT, if a number is negative, first remove it's negative sign.
+-- Send each thing from the INBOX to the OUTBOX.
+-- BUT, if a number is negative, first remove it's negative sign.
 
-0 size x speed
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
 main:

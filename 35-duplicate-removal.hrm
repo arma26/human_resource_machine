@@ -1,7 +1,7 @@
-/*Send everything from the inbox to the outbox, unless you've seen the same value before.
-Discard any duplicates.*/
+-- Send everything from the inbox to the outbox, unless you've seen the same value before.
+-- Discard any duplicates.
 
-11 = test
+-- 11 = test
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

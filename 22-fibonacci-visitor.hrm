@@ -1,22 +1,22 @@
-/*For each thing in the inbox, send to the outbox the full
-Fibonacci Sequence up to, but not exceeding that value.
-For example, if inbox is 10, outbox should be 1 1 2 3 5 8.
+-- For each thing in the inbox, send to the outbox the full
+-- Fibonacci Sequence up to, but not exceeding that value.
+-- For example, if inbox is 10, outbox should be 1 1 2 3 5 8.
+ 
+-- 7 = a
+-- 8 = b
+-- 3 = c
+-- 4 = inbox
 
-7 = a
-8 = b
-3 = c
-4 = inbox
-
-int fib(int n)
-{
-  int a = 1, b = 1;
-  for (int i = 3; i <= n; i++) {
-    int c = a + b;
-    a = b;
-    b = c;
-  }
-  return b;
- }*/
+-- int fib(int n)
+-- {
+--   int a = 1, b = 1;
+--   for (int i = 3; i <= n; i++) {
+--     int c = a + b;
+--     a = b;
+--     b = c;
+--   }
+--   return b;
+--  }
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

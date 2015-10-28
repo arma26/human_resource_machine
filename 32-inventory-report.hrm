@@ -1,10 +1,10 @@
-For each thing in the inbox, send to the outbox the
-total number of matching items on the floor.
+--For each thing in the inbox, send to the outbox the
+--total number of matching items on the floor.
 
-19 = counter
-18 = iterator
-17 = inbox
-14 = stop
+--19 = counter
+--18 = iterator
+--17 = inbox
+--14 = stop
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

@@ -1,7 +1,7 @@
-/*Send everything from the inbox to the outbox, except for vowels.
+-- Send everything from the inbox to the outbox, except for vowels.
 
-6 = iterator
-7 = inbox*/
+-- 6 = iterator
+-- 7 = inbox
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 

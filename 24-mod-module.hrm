@@ -1,6 +1,6 @@
-/*For each two things in the inbox, outbox the remainder that would result if you had
-divided the first by the second. Don't worry, you don't actually have to divide.
-And don't worry about the negative numbers for now.*/
+-- For each two things in the inbox, outbox the remainder that would result if you had
+-- divided the first by the second. Don't worry, you don't actually have to divide.
+-- And don't worry about the negative numbers for now.
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
