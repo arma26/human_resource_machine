@@ -2,3 +2,14 @@
 -- for example, 123 becomes 1,2,3.
 
 setup:
+  COPYFROM 11
+  COPYTO 8
+  COPYFROM 10
+  COPYTO 7
+  COPYFROM 0
+  COPYTO 6
+main:
+  INBOX
+  COPYTO 4
+
+  JUMP main
