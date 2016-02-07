@@ -4,24 +4,24 @@
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
-    main:
-      INBOX
-      JUMPZ zero
-      COPYTO 4
-      JUMPN add1
-      JUMP sub1
-    sub1:
-      OUTBOX
-      BUMPDN 4
-      JUMPZ zero
-      COPYFROM 4
-      JUMP sub1
-    add1:
-      OUTBOX
-      BUMPUP 4
-      JUMPZ zero
-      COPYFROM 4
-      JUMP add1
-    zero:
-      OUTBOX
-      JUMP main
+main:
+  INBOX
+  JUMPZ zero
+  COPYTO 4
+  JUMPN add1
+  JUMP sub1
+sub1:
+  OUTBOX
+  BUMPDN 4
+  JUMPZ zero
+  COPYFROM 4
+  JUMP sub1
+add1:
+  OUTBOX
+  BUMPUP 4
+  JUMPZ zero
+  COPYFROM 4
+  JUMP add1
+zero:
+  OUTBOX
+  JUMP main
