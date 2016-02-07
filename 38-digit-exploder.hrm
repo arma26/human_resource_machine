@@ -2,14 +2,44 @@
 -- for example, 123 becomes 1,2,3.
 
 setup:
-  COPYFROM 11
-  COPYTO 8
-  COPYFROM 10
-  COPYTO 7
-  COPYFROM 0
-  COPYTO 6
-main:
+  COPYFROM 9
+  COPYTO 0
+  COPYTO 1
+  COPYTO 2
   INBOX
-  COPYTO 4
-
-  JUMP main
+  COPYTO 3
+hundreds:
+  COPYFROM 3
+  SUB 11
+  JUMPN tens
+  COPYTO 3
+  BUMPUP 0
+  JUMP hundreds
+tens:
+  COPYFROM 3
+  SUB 10
+  JUMPN ones
+  COPYTO 3
+  BUMPUP 1
+  JUMP tens
+ones:
+  COPYFROM 3
+  COPYTO 2
+outh:
+  COPYFROM 0
+  JUMPZ outt
+  OUTBOX
+outt:
+  COPYFROM 1
+  JUMPZ zten
+  OUTBOX
+outo:
+  COPYFROM 2
+  OUTBOX
+  JUMP setup
+zten:
+  COPYFROM 0
+  JUMPZ outo
+  COPYFROM 1
+  OUTBOX
+  JUMP outo

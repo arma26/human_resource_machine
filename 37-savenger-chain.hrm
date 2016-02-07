@@ -6,7 +6,7 @@
 -- Outbox the data for that pair, and also the data in all following pairs in the chain.
 -- The chain ends when you reach a negative address.
 -- Repeat until the inbox is empty.
- 
+
 -- 12 = test
 
 -- HUMAN RESOURCE MACHINE PROGRAM --
