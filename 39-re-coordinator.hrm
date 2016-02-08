@@ -1,12 +1,37 @@
 -- Each number in the inbox is an aaddress of a tile on the floor.
 -- Send to the outbox the coordinates of that tile, column first, row second.
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
-main:
+-- 10 temp
+-- 13 original #
+-- 14 count
+-- 15 number 4
+setup:
+  INBOX
+  COPYTO 14
+  COPYTO 13
+mod:
+  COPYFROM 14
+  SUB 15
+  JUMPN modelse
+  COPYTO 14
+  JUMP mod
+modelse:
+  COPYFROM 14
+  OUTBOX
+setupdiv:
   COPYFROM 14
   SUB 14
   COPYTO 14
-  INBOX
-  INBOX
-  
+  COPYFROM 13
+  COPYTO 10
+divide:
+  COPYFROM 10
+  SUB 15
+  JUMPN divelse
+  COPYTO 10
+  BUMPUP 14
+  JUMP divide
+divelse:
+  COPYFROM 14
+  OUTBOX
+  JUMP setup
