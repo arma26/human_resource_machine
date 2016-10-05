@@ -4,8 +4,6 @@
 -- Send a 1 to the OUTBOX if their signs are different.
 -- Repeat until the INBOX is empty.
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 main:
   INBOX
   JUMPN firstn

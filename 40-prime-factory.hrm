@@ -1,0 +1,16 @@
+-- For each thing in the inbox, send it's prime factors to the outbox
+-- in order from smallest to largest.
+
+--INBOX 19 14 7
+
+init:
+  INBOX
+  COPYTO 23
+  COPYTO 0
+  SUB 0
+  COPYTO 0
+  BUMPUP 0
+  BUMPUP 0 -- put 2 in the 0 addr
+decr:
+  COPYFROM 23
+  SUB 0

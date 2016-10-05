@@ -2,8 +2,6 @@
 -- and outbox the result. Don't worry about negative numbers
 -- for now.
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 a:
   INBOX
   COPYTO   8

@@ -3,8 +3,6 @@
 
 -- 11 = test
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 setup:
   COPYFROM 14
   COPYTO 0

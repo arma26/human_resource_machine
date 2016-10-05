@@ -2,8 +2,6 @@
 -- divided the first by the second. Don't worry, you don't actually have to divide.
 -- And don't worry about the negative numbers for now.
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 main:
   INBOX
   COPYTO 0

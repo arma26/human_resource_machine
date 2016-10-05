@@ -9,8 +9,6 @@
 
 -- 12 = test
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 main:
   INBOX
 repeat:

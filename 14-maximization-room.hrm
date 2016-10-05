@@ -1,8 +1,6 @@
 -- Grab two things from the inbox, and put only the bigger of the two in the outbox.
 -- If they are equal, just pick either one. Repeat!
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 a:
 b:
   INBOX

@@ -1,0 +1,6 @@
+-- Grab each thing from the inbox, and drop each one into the outbox.
+
+a:
+  INBOX
+  OUTBOX
+  JUMP     a

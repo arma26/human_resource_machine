@@ -1,0 +1,17 @@
+-- For each thing in the inbox, multiply it by 40, and put the result in the outbox.
+
+a:
+  INBOX
+  COPYTO   0
+  ADD      0
+  COPYTO   0
+  ADD      0
+  COPYTO   0
+  ADD      0
+  COPYTO   0
+  ADD      0
+  ADD      0
+  ADD      0
+  ADD      0
+  OUTBOX
+  JUMP     a

@@ -2,8 +2,6 @@
 -- followed by all numbers to (or up to) zero.
 -- It's a countdown.
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 main:
   INBOX
   JUMPZ zero

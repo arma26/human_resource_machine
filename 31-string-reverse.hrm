@@ -1,8 +1,6 @@
 -- For each zero terminated string in the inbox,
 -- reverse it and put the result in the outbox. Repeat!
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 main:
   INBOX
   COPYTO [14]

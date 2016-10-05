@@ -1,15 +1,5 @@
 -- Grab each thing from the inbox, and drop each one into the outbox.
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
--- size solution
-a:
-  INBOX
-  OUTBOX
-  JUMP     a
-
--- speed solution
-
 INBOX
 OUTBOX
 INBOX

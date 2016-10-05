@@ -6,8 +6,6 @@
 --17 = inbox
 --14 = stop
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 setup:
   COPYFROM 14
   COPYTO 19

@@ -3,8 +3,6 @@
 -- 6 = iterator
 -- 7 = inbox
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 setup:
   INBOX
   COPYTO 7

@@ -3,8 +3,6 @@
 -- outbox the requested item from the floor and all following items
 -- on the floor until reach zero. Repeat!
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
 a:
   INBOX
   COPYTO   24
